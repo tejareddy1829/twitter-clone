@@ -15,11 +15,13 @@ function Widgets() {
         />
       </div>
 
-      <TwitterTimelineEmbed
-        sourceType='profile'
-        screenName='saitejabevara'
-        options={{ height: 1000 }}
-      />
+      <div className='mt-2'>
+        <TwitterTimelineEmbed
+          sourceType='profile'
+          screenName='saitejabevara'
+          options={{ height: 1000 }}
+        />
+      </div>
     </div>
   );
 }
